@@ -2,8 +2,8 @@
 
 Text Processing is one of the most common task in many ML applications. Below are some examples of such applications.
 
-• Language Translation: Translation of a sentence from one language to another.
-• Sentiment Analysis: To determine, from a text corpus, whether the  sentiment towards any topic or product etc. is positive, negative, or neutral.
+• Language Translation: Translation of a sentence from one language to another.\
+• Sentiment Analysis: To determine, from a text corpus, whether the  sentiment towards any topic or product etc. is positive, negative, or neutral.\
 • Spam Filtering:  Detect unsolicited and unwanted email/messages.
 
 ## Natural Language Processing:
