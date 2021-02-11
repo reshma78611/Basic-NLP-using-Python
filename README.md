@@ -28,24 +28,24 @@ In text processing, words of the text represent discrete, categorical features. 
 
 One of the simplest techniques to numerically represent text is *Bag of Words.*
 
-   **1. Bag of Words**
-            - Focuses all the words in corpus and its frequency.
-            - Throws away all order information.
-            *Limitations:*
-            - Can't account for position.
-            - Cant account for context.
-            - Cant completely capture importance of words
-    **2. TF-IDF**
-            *TF*
-            - Term Frequency
-            - Number of repetitions of a word in a document/Total number of words in a document
-            - Captures importance of a word in a document.
-            *IDF*
-            - Inverse Document Frequency
-            - log(number of documents)/(number of documents containing the word)
-            - Captures importance of a word in entire corpus
-            *Limitations:*
-            - One of the major disadvantages of using TF-IDF is that it discards word order thereby ignoring the context and in turn meaning of words in the document.
+   **1. Bag of Words**\
+            - Focuses all the words in corpus and its frequency\
+            - Throws away all order information.\
+            *Limitations:*\
+            - Can't account for position.\
+            - Cant account for context.\
+            - Cant completely capture importance of words\
+    **2. TF-IDF**\
+            *TF*\
+            - Term Frequency\
+            - Number of repetitions of a word in a document/Total number of words in a document\
+            - Captures importance of a word in a document.\
+            *IDF*\
+            - Inverse Document Frequency\
+            - log(number of documents)/(number of documents containing the word)\
+            - Captures importance of a word in entire corpus\
+            *Limitations:*\
+            - One of the major disadvantages of using TF-IDF is that it discards word order thereby ignoring the context and in turn meaning of words in the document.\
             
             
   For natural language processing (NLP) maintaining the context of the words is of utmost importance. To solve this problem we use another approach called Word Embedding.
